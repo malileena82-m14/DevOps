@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        width: 80%;
+        min-height: 100px;
+        border: 1px solid #000;
+        margin: auto;
+        padding: 15px;
+      }
+      .box h1 {
+        text-align: center;
+      }
+      .data {
+        width: 98%;
+        min-height: 60px;
+        padding: 10px;
+      }
+      .data table {
+        width: 90%;
+        border-collapse: collapse;
+        margin: auto;
+      }
+      .data table,
+      th,
+      tr,
+      td {
+        border: 1px solid #000;
+        padding: 15px;
+        text-align: center;
+      }
+      .data tr:nth-child(even) {
+        background-color: lightgoldenrodyellow;
+      }
+      .data tr:hover {
+        background-color: lightgray;
+      }
+      .data table th {
+        background-color: black;
+        color: white;
+      }
+
+      .edit {
+        width: 100px;
+        padding: 10px 20px;
+        background-color: royalblue;
+        text-decoration: none;
+        color: white;
+        border: none;
+        border-radius: 10px;
+      }
+      .delete {
+        width: 100px;
+        padding: 10px 20px;
+        background-color: tomato;
+        text-decoration: none;
+        color: white;
+        border: none;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <h1>Student mark List</h1>
+      <div class="data">
+        <table>
+          <thead>
+            <th>Name</th>
+            <th>Class</th>
+            <th>Mobile</th>
+            <th>Total Marks</th>
+            <th>Actions</th>
+          </thead>
+
+          <tr>
+            <td>Leena Mali</td>
+            <td>Btech</td>
+            <td>9665827350</td>
+            <td>500</td>
+            <td>
+              <a href="" class="edit">Edit</a>
+              <a href="" class="delete">Delete</a>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Yogeshwari Bari</td>
+            <td>Btech</td>
+            <td>8421576661</td>
+            <td>500</td>
+            <td>
+              <a href="" class="edit">Edit</a>
+              <a href="" class="delete">Delete</a>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Akshata Shinde</td>
+            <td>Btech</td>
+            <td>9876897678</td>
+            <td>500</td>
+            <td>
+              <a href="" class="edit">Edit</a>
+              <a href="" class="delete">Delete</a>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
